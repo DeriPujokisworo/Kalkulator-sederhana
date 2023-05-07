@@ -1,0 +1,28 @@
+.bg {
+  background-color: aqua;
+}
+
+.bilangan1[type="number"] {
+  width: 200px;
+  padding: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.bilangan2[type="number"] {
+  width: 200px;
+  padding: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.result {
+  border-style: solid;
+  border-collapse: collapse;
+}
+
+.button {
+  padding: 5px 10px;
+  font-size: 16px;
+  margin-right: 5px;
+}
