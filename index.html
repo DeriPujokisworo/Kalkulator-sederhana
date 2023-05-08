@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kalkulator Sederhana</title>
+    <link rel="stylesheet" href="asset/css/style.css" />
+    <script src="asset/js/index.js"></script>
+  </head>
+  <body>
+    <div class="bg">
+      <h1 class="kal">Kalkulator</h1>
+      <form>
+        <input
+          class="bilangan1"
+          type="number"
+          id="bilangan1"
+          placeholder="Masukkan Bilangan Pertama"
+        />
+        <span
+          ><input
+            class="bilangan2"
+            type="number"
+            id="bilangan2"
+            placeholder="Masukkan Bilangan Kedua"
+        /></span>
+
+        <span id="hasil" class="result">000000000</span>
+        <br />
+        <button class="button" type="button" onclick="hitung('+')">+</button>
+        <button class="button" type="button" onclick="hitung('-')">-</button>
+        <button class="button" type="button" onclick="hitung('*')">*</button>
+        <button class="button" type="button" onclick="hitung('/')">/</button>
+        <button class="button" type="button" onclick="resetForm()">
+          Reset
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,12 +1,21 @@
 .bg {
-  background-color: aqua;
+  background-color: antiquewhite;
+  width: 350px;
+  border: 10px solid teal;
+  border-radius: 5%;
+  padding: 45px;
+  margin: 45px;
+}
+
+.kal {
+  text-align: center;
+  padding-bottom: 50px;
 }
 
 .bilangan1[type="number"] {
-  width: 200px;
   padding: 5px;
   font-size: 16px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .bilangan2[type="number"] {
@@ -18,7 +27,10 @@
 
 .result {
   border-style: solid;
-  border-collapse: collapse;
+  border-width: 1px;
+  height: 20px;
+  border-radius: 5%;
+  margin-right: 20px;
 }
 
 .button {
